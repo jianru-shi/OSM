@@ -113,7 +113,7 @@ cur.execute("CREATE TABLE nodes ( id INTEGER PRIMARY KEY NOT NULL, lat REAL, lon
 conn.commit()
 node_df = pd.read_csv('nodes.csv', dtype=object)
 node_df.to_sql('nodes', conn, if_exists='append', index=False)
-
+```
 
 ## Data Exploration with SQL
 
