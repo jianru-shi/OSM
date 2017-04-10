@@ -74,7 +74,6 @@ By running the test data in auditing functions I found following problems:
 * Incorrect state names ('WA', 'AZ')
 
 
-```
 
 ## Data Cleanning 
 
